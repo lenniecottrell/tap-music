@@ -88,7 +88,7 @@ header p {
 
 @keyframes jump {
   0% {
-    bottom: 50%;
+    bottom: 0%;
     left: 50%;
   }
   50% {
@@ -96,7 +96,7 @@ header p {
     left: 50%;
   }
   100% {
-    bottom: 50%;
+    bottom: 0%;
     left: 50%;
   }
 }
