@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.app {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 50px 0px 30px 0px;
+  text-align: center;
+  font-size: 40px;
+}
+
+header p {
+  font-size: 20px;
+}
+
+.pads {
+  background: lightblue;
+  width: 100%;
+  display: flex;
+}
+
+.pads > div {
+  height: 100px;
+  width: 100px;
+  flex: 1;
+}
+
+.pads > div p {
+  text-align: center;
+  margin-top: auto;
+}
+
+.pad1 {
+  background: #60d394;
+}
+.pad1:hover {
+  background: #60d394d0;
+}
+
+.pad2 {
+  background: #d36060;
+}
+.pad2:hover {
+  background: #d36060c9;
+}
+
+.pad3 {
+  background: #c060d3;
+}
+.pad3:hover {
+  background: #c060d3c7;
+}
+
+.pad4 {
+  background: #f7f332;
+}
+.pad4:hover {
+  background: #f7f432bb;
+}
+
+.pad5 {
+  background: #60d3c4;
+}
+.pad5:hover {
+  background: #60d3c48c;
+}
+
+.pad6 {
+  background: #6071d3;
+}
+.pad6:hover {
+  background: #6071d3be;
+}
+
+@keyframes jump {
+  0% {
+    bottom: 50%;
+    left: 50%;
+  }
+  50% {
+    bottom: 50%;
+    left: 50%;
+  }
+  100% {
+    bottom: 50%;
+    left: 50%;
+  }
+}
+
+.visual > div {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  bottom: 50%;
+  left: 10%;
+  z-index: -1;
+  overflow: hidden;
+}
